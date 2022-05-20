@@ -1,0 +1,12 @@
+spring:
+  datasource:
+    type: com.zaxxer.hikari.HikariDataSource
+    hikari:
+      connection-timeout: 30000
+      maximum-pool-size: 10
+      pool-name: HikariCP
+      username: postgres
+      password: admin
+    url: jdbc:postgresql://localhost:5432/postgres
+server:
+  port: 8080
