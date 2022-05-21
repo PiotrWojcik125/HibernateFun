@@ -1,4 +1,4 @@
-package hibernatefun.app;
+package hibernatefun.springapplication;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;

@@ -1,27 +1,12 @@
-package hibernatefun.db.entity;
+package hibernatefun.endpoint.dto;
 
-import javax.persistence.Entity;
-import javax.persistence.Id;
-import javax.persistence.Table;
-
-@Entity
-@Table(name = "author")
-public class AuthorEntity {
-
-  @Id
-  private Long id;
+public class AuthorDto {
   private String firstName;
   private String lastName;
 
-  public AuthorEntity() {
-  }
-
-  public Long getId() {
-    return id;
-  }
-
-  public void setId(Long id) {
-    this.id = id;
+  public AuthorDto(String firstName, String lastName) {
+    this.firstName = firstName;
+    this.lastName = lastName;
   }
 
   public String getFirstName() {
