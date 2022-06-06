@@ -1,6 +1,4 @@
-package hibernatefun.domain.aggregate;
-
-import liquibase.pro.packaged.A;
+package hibernatefun.domain.entity;
 
 public class Author {
   private String firstName;

@@ -1,6 +1,6 @@
 package hibernatefun.endpoint.mapper;
 
-import hibernatefun.domain.aggregate.Author;
+import hibernatefun.domain.entity.Author;
 import hibernatefun.endpoint.dto.AuthorDto;
 
 public class AuthorDtoMapper {

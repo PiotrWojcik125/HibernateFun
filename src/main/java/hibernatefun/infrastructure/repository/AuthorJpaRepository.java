@@ -1,6 +1,6 @@
-package hibernatefun.intrastructure.repository;
+package hibernatefun.infrastructure.repository;
 
-import hibernatefun.intrastructure.entity.AuthorEntity;
+import hibernatefun.infrastructure.entity.AuthorEntity;
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.stereotype.Repository;
 

@@ -1,14 +1,14 @@
-package hibernatefun.intrastructure.entity;
+package hibernatefun.infrastructure.entity;
 
-import javax.persistence.Entity;
-import javax.persistence.Id;
-import javax.persistence.Table;
+import javax.persistence.*;
 
 @Entity
 @Table(name = "author")
 public class AuthorEntity {
 
   @Id
+  @GeneratedValue(strategy = GenerationType.SEQUENCE, generator = "author_generator")
+  @SequenceGenerator(name = "author_generator", sequenceName = "author_seq")
   private Long id;
   private String firstName;
   private String lastName;

@@ -1,8 +1,7 @@
-package hibernatefun.intrastructure.mapper;
+package hibernatefun.infrastructure.mapper;
 
-import hibernatefun.domain.aggregate.Author;
-import hibernatefun.intrastructure.entity.AuthorEntity;
-import liquibase.pro.packaged.A;
+import hibernatefun.domain.entity.Author;
+import hibernatefun.infrastructure.entity.AuthorEntity;
 
 public class AuthorEntityMapper {
   private AuthorEntityMapper() {
